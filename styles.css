@@ -1,0 +1,33 @@
+#card-fan,
+#card-fan img {
+    width: 640px;
+    height: 480px;
+    transition: .6s transform ease-out;
+}
+
+#card-fan {
+    margin: 0 auto;
+}
+
+#card-fan img {
+    border: 32px solid #ffffff;
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    transform-origin: center 1200px;
+}
+
+#card-fan img[src="https://s-media-cache-ak0.pinimg.com/originals/a1/99/9f/a1999ff0aa7dc05a54692f3641b60c13.jpg"] {
+    transform: rotate(6deg);
+}
+
+#card-fan img[src="http://media.pocketmonsters.net/imageboard/24/12279154440063.jpg"] {
+    transform: rotate(-6deg);
+}
+
+#card-fan:hover img[src="https://s-media-cache-ak0.pinimg.com/originals/a1/99/9f/a1999ff0aa7dc05a54692f3641b60c13.jpg"] {
+    transform: rotate(24deg);
+}
+
+#card-fan:hover img[src="http://media.pocketmonsters.net/imageboard/24/12279154440063.jpg"] {
+    transform: rotate(-24deg);
+}
